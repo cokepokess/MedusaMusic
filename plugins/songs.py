@@ -23,7 +23,7 @@ async def song_dl(_, msg: Message):
     if len(msg.command) == 1:
         return await msg.reply(text=text, parse_mode='md')
 
-    r_text = await msg.reply('Processing...')
+    r_text = await msg.reply('Mahni Axtarilir...')
     url = msg.text.split(None, 1)[1]
     url = extract_the_url(url=url)
     
@@ -38,7 +38,7 @@ async def song_dl(_, msg: Message):
         return
 
     try:
-        await r_text.edit_text('Uploading...')
+        await r_text.edit_text('Mahni Yuklenir...')
     except MessageNotModified:
         pass
 
