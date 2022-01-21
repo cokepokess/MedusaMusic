@@ -2,8 +2,8 @@ import os
 
 
 
-API_ID = os.getenv('API_ID',12345)                            # You can get this from -->  https://my.telegram.org/auth  
-API_HASH = os.getenv('API_HASH','You API HASH')               # You can get this from -->  https://my.telegram.org/auth
-BOT_TOKEN = os.getenv('BOT_TOKEN','Bot token here')           # You can get this from --> @BotFather
-BOT_NAME = os.getenv('BOT_NAME','MedusaMousikibot')           #Username of your bot
-GENIUS_API = os.getenv('GENIUS_API','genius api here')        # You can get this from --> https://docs.genius.com/
+API_ID = os.getenv('API_ID',10908371)                            # You can get this from -->  https://my.telegram.org/auth  
+API_HASH = os.getenv('API_HASH','fb95c19178dff8e5be224a79261cd19c')               # You can get this from -->  https://my.telegram.org/auth
+BOT_TOKEN = os.getenv('BOT_TOKEN','5083210468:AAGSq0y9iDPSHYFSJDcsUafscg2JWp0DvJk')           # You can get this from --> @BotFather
+BOT_NAME = os.getenv('BOT_NAME','AdamHakliSong')           #Username of your bot
+GENIUS_API = os.getenv('GENIUS_API','lTOJYG4T5btfm7WT7yvGbUGEWEwm8huk-YGnV8SM2bOhYICdX_ZmasvaHkOYtve2')        # You can get this from --> https://docs.genius.com/
