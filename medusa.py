@@ -8,10 +8,10 @@ from pyrogram.types import (
 )
 
 Medusa = Client(
-    session_name=AdamHakliSong,
-    api_id=10908371,
-    api_hash=fb95c19178dff8e5be224a79261cd19c,
-    bot_token=5083210468:AAGSq0y9iDPSHYFSJDcsUafscg2JWp0DvJk,
+    session_name=BOT_NAME,
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
     plugins=dict(root='plugins')
 )
 
