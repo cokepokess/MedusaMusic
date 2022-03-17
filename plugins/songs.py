@@ -43,12 +43,12 @@ async def song_dl(_, msg: Message):
         pass
 
     await msg.reply_audio(
-            audio=f'downloads/{ytinfo.title.replace("/","|")}-{ytinfo.video_id}.mp3', 
+            audio=f'downloads/{ytinfo.replace("/","|")}-{ytinfo.video_id}.mp3', 
             thumb='src/Medusa320px.png',
             duration=int(ytinfo.length),
             performer=str(ytinfo.author),
-            title=f'{str(ytinfo.title)}',
-            caption=f"<a href='{url}'>__{ytinfo.title}__</a>\n\n__Downloaded by @cokepokess"
+            title=f'{str(ytinfo)}',
+            caption=f"<a href='{url}'>__{ytinfo}__</a>\n\n__Downloaded by @cokepokess"
         )
 
     await r_text.delete()
